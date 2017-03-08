@@ -6,3 +6,9 @@ h1 {
 p {
 	color: red;
 }
+.picture{
+	background: url("foodmap.jpg");
+	background-size: cover;
+	padding: 10px;
+	height: 500px;
+}
