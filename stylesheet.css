@@ -12,6 +12,15 @@ p {
 	padding: 10px;
 	height: 500px;
 }
-body{
+/*dy{
 	background: rgba(204,255,255,0.5);
+}*/
+.tagline{
+	background-color: rgba(194,194,194,.5);
+	background: cover;
+	padding: 10px;
+	margin: auto;
+	}
+p{
+	color:black;
 }
