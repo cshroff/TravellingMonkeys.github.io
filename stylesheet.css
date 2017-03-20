@@ -110,4 +110,8 @@ p{
 	.navbar{
 		margin-top: 56px;
 	}
+	.footer li{
+		display: block;
+		padding: 1px;
+		}
 	}
