@@ -32,6 +32,7 @@ i{
 }
 .navbar{
 	margin-top: 36px;
+	border-color: white;
 }
 /*Heading style*/
 .h1 {
@@ -57,7 +58,13 @@ i{
 	background-image: url("foodmap.jpg");
 	padding: 60px;
 	width: 100%;
+<<<<<<< HEAD
 	height: 400px;
+=======
+	height: 300px;
+	color: rgba(96,20,20,1);
+	text-transform: capitalize;
+>>>>>>> origin/master
 }
 /*dy{
 	background: rgba(204,255,255,0.5);
