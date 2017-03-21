@@ -88,7 +88,7 @@
 <div class="countries">
 <div class='container-fluid'>
 <div class='row'>
-      <div class='col-md-2'><img src='images/Judit_avatar.jpg' class='img-circle'></div>
+      <div class='col-md-2'><img id="Judit" src='images/Judit_avatar.jpg' class='img-circle'></div>
       <div class='col-md-8'>
       	<h2>Hungary</h2>
       	<p>I'm second year PhD student from Hungary who likes to bake all sorts of stuff</p></div>
@@ -103,13 +103,24 @@
 
 </div>
 <div class='row'>
-      <div class='col-md-2'> <img src='images/Blossom-The-Powerpuff-Girl.jpg' class='img-circle'></div>
+      <div class='col-md-2'> <img id="Tan" src='images/Blossom-The-Powerpuff-Girl.jpg' class='img-circle'></div>
       <div class='col-md-8'>
       	<h2>Malaysia</h2>
       	<p>I'm Jie Xin, a second year undergraduate who enjoys trying out new recipes</p></div>
  </div>
 </div>
 </div>
+
+<script>
+$( "#Judit" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 100 );
+});
+$( "#Tan" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 100 );
+});
+</script>
 
 <!--footer bar at bottom-->
 		<div class="footer">
