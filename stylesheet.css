@@ -162,6 +162,10 @@ p{
 	color: black;
 	text-decoration:none;
 }
+.btn-default{
+	background-color:rgba(96,20,20,1);
+	color: white;
+}
 
 /* Footer */
 .footer {
