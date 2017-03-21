@@ -34,7 +34,7 @@ i{
 	margin-top: 36px;
 	border-color: white;
 }
-/*Heading style*/
+/*Title on picture*/
 .h1 {
 	color: white;
 	padding: 50px;
@@ -49,6 +49,7 @@ i{
 	padding: 10px;
 	color:white;
 	font-size:larger;
+	background-color: rgba(0,0,0,.5)
 }
 /* paragraph style*/
 .p {
