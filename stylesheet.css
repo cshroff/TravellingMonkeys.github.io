@@ -32,7 +32,6 @@ i{
 }
 .navbar{
 	margin-top: 36px;
-	border-color: white;
 }
 /*Title on picture*/
 .h1 {
@@ -81,6 +80,7 @@ i{
 .tagline small{
 	color: rgba(231,192,47,.5);
 }
+/*About Us*/
 .countries .container-fluid{
 	margin-top: 20px;
 }
@@ -102,6 +102,41 @@ p{
 }
 .countries{
 	text-align:center;
+}
+.countries a{
+	color: black;
+	text-decoration:none;
+}
+/*flipping images*/
+.flip-container{
+	display:block;
+	margin: 0 auto;
+	perspective: 1000;
+	width: 200px;
+	height: 200px;
+}
+.flipper{
+	transform-style:preserve-3d;
+	transition:all 1.0s linear;
+	position:relative;
+}
+.flip-container:hover .flipper{
+	transform:rotateY(180deg);
+}
+.Front{	
+	position:absolute;
+	backface-visibility:hidden;
+	top: 0;
+	left: 0;
+	transform:rotateY(180deg);
+	z-index: 2;
+}
+.Back{
+	position:absolute;
+	top: 0;
+	left: 0;
+	transform: rotateY(180deg);
+	z-index: 1;
 }
 /* Footer */
 .footer {
