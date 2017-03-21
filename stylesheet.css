@@ -59,7 +59,7 @@ i{
 /* paragraph style*/
 .header{
 	background-image: url("foodmap.jpg");
-	padding: 50px;
+	padding: 56px;
 	width: 100%;
 	height: 450px;
 	color: rgba(96,20,20,1);
@@ -69,6 +69,7 @@ i{
 	background-color: rgba(96,20,20,1);
 	background: cover;
 	color: rgba(231,154,47,1)
+<<<<<<< HEAD
 	padding-top: 10px;
 	padding-bottom: 5px;
 	margin: 0;
@@ -84,6 +85,11 @@ i{
 .countries .container-fluid{
 	margin-top: 20px;
 }
+=======
+	margin: auto;	
+}
+>>>>>>> origin/master
+
 p{
 	color:black;
 } 
