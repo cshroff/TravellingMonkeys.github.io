@@ -83,6 +83,12 @@ i{
 	color: rgba(231,192,47,.5);
 }
 /*About Us*/
+#about{
+	margin-top: 0;
+	color: black;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 10px;
+}
 .countries .container-fluid{
 	margin-top: 20px;
 }
@@ -109,12 +115,15 @@ p{
 }
 .countries{
 	text-align:center;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 50px;
 }
 .countries a{
 	color: black;
 	text-decoration:none;
+}
+.countries .container-fluid{
+	margin-top: 0;
 }
 /*flipping images*/
 .flip-container{
@@ -156,10 +165,11 @@ p{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-#contact{
+.contactform #contact{
 	margin-top: 0;
 	color:white;
 	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
 }
 .contactform .container{
 	margin:0 auto;
@@ -182,6 +192,15 @@ p{
 	margin: 0;
 	background-color: white;
 	background-size:cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.contactcontact #contact{
+	margin-top: 0;
+	color: black;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
 }
 .contactcontact .container{
 	margin:0 auto;
