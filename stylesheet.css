@@ -55,6 +55,7 @@ i{
 	padding: 10px;
 	color:white;
 	font-size:larger;
+	background-color: rgba(0,0,0, .5);
 }
 /* paragraph style*/
 .header{
@@ -108,6 +109,8 @@ p{
 }
 .countries{
 	text-align:center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .countries a{
 	color: black;
@@ -150,6 +153,13 @@ p{
 	margin: 0;
 	background-color: rgba(0,0,0, .75);
 	background-size:cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#contact{
+	margin-top: 0;
+	color:white;
+	font-family: 'Rock Salt', Cursive;
 }
 .contactform .container{
 	margin:0 auto;
