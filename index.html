@@ -17,6 +17,8 @@
          <!--link to icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Around the world in food</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
 </head>
 
@@ -84,44 +86,81 @@
   </div>
  </div>
 </div>
-
-
-<div class="countries">
-<div class="container text-center">
- <div class='jumbotron'>
-  <div class="row">
   
-  	  <div>
-      <div class=".col-md-4">
-      <img src="images/Judit_avatar.jpg" class="img-circle">
-      	<h2>Hungary</h2>
-      	<p>I'm second year PhD student from Hungary who likes to bake all sorts of stuff</p></div>
-      	</div>
- 		</div>
+<div class="countries">
+    <div class='container-fluid'>
+    <a href="#about"><h1 id="about"> About Us </h1></a>
+        <div class='row' id="description">
+              <div class='col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Front">
+                        	<img src="images/hungarian.png" class="img-circle">
+                        </div>
+                        <div class="Back">
+                                <img id="Judit" src='images/Judit_avatar.jpg' class='img-circle'>
+                        </div>
+                     </div>
+                </div>
+                                <br>
+                                    <h2>Hungary</h2>
+                                <br>
+                                    <p>I'm second year PhD student from Hungary who likes to bake all sorts of stuff</p>       
+                </div>
 
- 	  <div>
-      <div class=".col-md-4">
-      insert a picture here
-        <h2>Wales</h2>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <p>I'm a master student who likes trying new foods</p></div>
-     	</div>
-     	</div>
-=======
-=======
->>>>>>> parent of 2c35b2f... description
-        <p>Claire</p></div>
+              
+              <div class='col-xs-12 col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Front">
+                        	<img src="images/welsh.gif" class="img-circle">
+                        </div>
+                        <div class="Back">
+                			<img id="claire" src="images/logopointsblue.png" class="img-circle">
+                        </div>
+                     </div>
+                </div>
+                            <br>
+                                <h2>Wales</h2>
+                            <br>
+                                <p>I'm a masters student who likes trying new foods</p>
+              </div>
+
+              <div class='col-xs-12 col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Back">
+                            <img id="Tan" src='images/Blossom-The-Powerpuff-Girl.jpg' class='img-circle'>
+                        </div>
+                        <div class="Front">
+                        	<img src="images/malaysian.png" class="img-circle">
+                        </div>
+                     </div>
+                 </div>
+                            <br>
+                                <h2>Malaysia</h2>   
+                            <br>
+                                <p>I'm Jie Xin, a second year undergraduate who enjoys trying out new recipes</p>
+              </div>
+        </div>
      </div>
->>>>>>> parent of 2c35b2f... description
+</div>
 
-      <div>
-      <div class=".col-md-4"> 
-      <img src="images/Blossom-The-Powerpuff-Girl.jpg" class="img-circle">
-      	<h2>Malaysia</h2>
-      	<p>I'm Jie Xin, a second year undergraduate who enjoys trying out new recipes</p></div>
-		</div>
-		</div>
+
+<script>
+$( "#Judit" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 100 );
+});
+$( "#claire" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 100 );
+});$( "#Tan" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 100 );
+});
+
+</script>
 
 <!--Contact-->
 <div class="contactform">
