@@ -57,9 +57,6 @@ i{
 	font-size:larger;
 }
 /* paragraph style*/
-.p {
-	color: red;
-}
 .header{
 	background-image: url("foodmap.jpg");
 	padding: 50px;
@@ -68,9 +65,6 @@ i{
 	color: rgba(96,20,20,1);
 	text-transform: capitalize;
 }
-/*dy{
-	background: rgba(204,255,255,0.5);
-}*/
 .tagline{
 	background-color: rgba(96,20,20,1);
 	background: cover;
@@ -144,6 +138,25 @@ p{
 	transform: rotateY(180deg);
 	z-index: 1;
 }
+/*Contact Form*/
+.contactform{
+	text-align:center;
+	margin: 0;
+	background-color: rgba(0,0,0, .75);
+	background-size:cover;
+}
+.contactform .container{
+	margin:0 auto;
+	margin-bottom: 10px;
+	color: rgba(96,20,20,1);
+	font-weight:bold;
+	font-size: large;
+}
+.contactform a{
+	color: black;
+	text-decoration:none;
+}
+
 /* Footer */
 .footer {
 		text-align: center;
