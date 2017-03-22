@@ -67,7 +67,7 @@ i{
 	text-transform: capitalize;
 }
 .tagline{
-	background-color: rgba(96,20,20,1);
+	background-color: rgba(96,20,20,.95);
 	background: cover;
 	color: rgba(231,154,47,1)
 <<<<<<< HEAD
@@ -160,14 +160,14 @@ p{
 .contactform{
 	text-align:center;
 	margin: 0;
-	background-color: rgba(0,0,0, .75);
+	/*background-color: rgba(0,0,0, .75);*/
 	background-size:cover;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 .contactform #contact{
 	margin-top: 0;
-	color:white;
+	color:black;
 	font-family: 'Rock Salt', Cursive;
 	padding-bottom: 20px;
 }
@@ -186,6 +186,22 @@ p{
 	background-color:rgba(96,20,20,1);
 	color: white;
 }
+/*Restaurants*/
+.sheffield{
+	text-align:center;
+	background-color: rgba(96,20,20,1);
+	padding: 20px;
+}
+.i4ewOd-pzNkMb-haAclf {
+    background-color: white;
+}
+.sheffield h1{
+	margin-top: 0;
+	color: white;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
+}
+	
 /*Contact Page*/
 .contactcontact{
 	text-align:center;
