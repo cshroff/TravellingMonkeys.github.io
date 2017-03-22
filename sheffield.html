@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+		<!--link to bootstrap-->
+		<link href='dist/css/bootstrap.css' rel='stylesheet'>
+
+		<!--link to stylesheet-->
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'>
+
+		<!--link to jquery-->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src"ourscript.js"></script>
+		<!--Title on tab bar-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+         <!--link to icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Around the world in food</title>
+        <!--link to fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+</head>
+
+<body>
+<!--Social media bar-->
+<div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+				<ul>Around The World In Food</ul>
+             </div>
+            <div class="socialmedia">
+               <div class="col-sm-6 col-xs-12">
+                <a href="https://www.youtube.com/channel/UCEB1kZ4y5pQPDT2P1GqD5Cg"><i style="font-size:24px" class="fa">&#xf16a;</i></a>
+                <a href="https://www.instagram.com/the_world_awaits/?hl=en"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+                <a href="https://www.facebook.com/The-World-Awaits-1817373355196614/?ref=bookmarks"><i style="font-size:24px" class="fa">&#xf082;</i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+    </div>
+    
+<br>    
+<!--navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+			<li><a href="#countries">Countries</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<!--header-->
+<div class="header">
+	<h1 class="text-center"><strong>Around the world in food</strong>
+	</h1>
+</div>
+
+
+<!--Main Line-->
+<div class="tagline">
+ <!--paragragh-->
+ <div class='container-fluid'>
+  <div class='row'>
+    <div class='col-md-12'>
+      <h2> <p class="text-center">We are three girls from different counties.<br />
+      On this site we've collected foods from our countries/regions<br />
+      <small>- recipes, tips and local cuisine fun facts -</small></p></h2>      
+    </div>
+  </div>
+ </div>
+</div>
+  
+<div class="countries">
+    <div class='container-fluid'>
+    <!--<a href="#about"><h1 id="about"> About Us </h1></a>-->
+        <div class='row' id="description">
+              <div class='col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Front">
+                        	<img src="images/hungarian.png" class="img-circle">
+                        </div>
+                        <div class="Back">
+                                <img id="Judit" src='images/Judit_avatar.jpg' class='img-circle'>
+                        </div>
+                     </div>
+                </div>
+                                <br>
+                                    <h2>Hungary</h2>
+                                <br>
+                                    <p>I'm second year PhD student from Hungary who likes to bake all sorts of stuff</p>
+                                    
+                                    
+                </div>
+
+              
+              <div class='col-xs-12 col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Front">
+                        	<img src="images/welsh.gif" class="img-circle">
+                        </div>
+                        <div class="Back">
+                			<img id="claire" src="images/logopointsblue.png" class="img-circle">
+                        </div>
+                     </div>
+                </div>
+                            <br>
+                                <h2>Wales</h2>
+                            <br>
+                                <p>I'm a masters student who likes trying new foods</p>
+              </div>
+
+              <div class='col-xs-12 col-md-4'>
+              	<div class="flip-container">
+                	<div class="flipper">
+                    	<div class="Back">
+                            <img id="Tan" src='images/Blossom-The-Powerpuff-Girl.jpg' class='img-circle'>
+                        </div>
+                        <div class="Front">
+                        	<img src="images/malaysian.png" class="img-circle">
+                        </div>
+                     </div>
+                 </div>
+                            <br>
+                                <h2>Malaysia</h2>   
+                            <br>
+                                <p>I'm Jie Xin, a second year undergraduate who enjoys trying out new recipes</p>
+              </div>
+        </div>
+
+     </div>
+</div>
+
+<!--Sheffield Restaurants-->
+<div class="sheffield">
+<h1> Best Restaurants in Sheffield</h1>
+<iframe src="https://www.google.com/maps/d/embed?mid=1cI4imxrsE4LW8gpkdIL14YMjWZo&hl=en" width="640" height="480"></iframe>
+</div>
+
+<!--Contact-->
+
+<div class="contactform">
+	<div class="container-fluid">
+	    <a href="#contact"><h1 id="contact"> Contact Us </h1></a>
+			<div class="container">
+   	<form>
+      <div class="form-group">
+            <label for="email1">Email address</label>
+            <input type="email" class="form-control" id="email1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="password1">Password</label>
+            <input type="password" class="form-control" id="password1" placeholder="Password">
+          </div>
+          <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
+          </div>    
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+       </div>
+	</div>
+</div>
+  
+  
+<!--footer bar at bottom-->
+		<div class="footer">
+			<ul>
+				<small>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="#">Hungary</a></li>
+					<li><a href="#">Malaysia</a></li>
+					<li><a href="#">Wales</a></li>
+					<li><a href="#">Recipies</a></li>
+					<li><a href="contact.html">Contact</a></li>
+                    <li><div class="text">Around The World In Food</div></li>
+				</small>
+			</ul>
+		</div>
+
+</body>
+</html>
