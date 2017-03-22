@@ -12,6 +12,7 @@
 		<!--link to jquery-->
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src"ourscript.js"></script>
+                <script src="dist/js/bootstrap.min.js"></script>     
 		<!--Title on tab bar-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
          <!--link to icons-->
@@ -79,107 +80,81 @@
  <div class='container-fluid'>
   <div class='row'>
     <div class='col-md-12'>
-      <h2> <p class="text-center">We are three girls from three different parts of the world, and we all love food!<br />
-      This site was created to introduce other food-lovers to our favourite dishes<br />
-      <small>- recipes, tips and local cuisine fun facts -</small></p></h2>      
+      <h2> <p class="text-center">Sheffield</p></h2>      
     </div>
   </div>
  </div>
 </div>
   
-<div class="countries">
-    <div class='container-fluid'>
-    <!--<a href="#about"><h1 id="about"> About Us </h1></a>-->
-        <div class='row' id="description">
-              <div class='col-md-4'>
-              	<div class="flip-container">
-                	<div class="flipper">
-                    	<div class="Front">
-                        	<img src="images/hungarian.png" class="img-circle">
-                        </div>
-                        <div class="Back">
-                                <img id="Judit" src='images/Judit_avatar.jpg' class='img-circle'>
-                        </div>
-                     </div>
-                </div>
-                                <br>
-                                    <h2>Hungary</h2>
-                                <br>
-                                    <p>I'm second year PhD student from Hungary who likes to bake all sorts of stuff</p>
-                                    
-                                    
-                </div>
+	<!--Changing pictures-->
+  <!--<div class="container">-->  
+ 	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+             			
 
-              
-              <div class='col-xs-12 col-md-4'>
-              	<div class="flip-container">
-                	<div class="flipper">
-                    	<div class="Front">
-                        	<img src="images/welsh.gif" class="img-circle">
-                        </div>
-                        <div class="Back">
-                			<img id="claire" src="images/logopointsblue.png" class="img-circle">
-                        </div>
-                     </div>
-                </div>
-                            <br>
-                                <h2>Wales</h2>
-                            <br>
-                                <p>I'm a masters student who likes trying new foods</p>
-              </div>
+			
 
-              <div class='col-xs-12 col-md-4'>
-              	<div class="flip-container">
-                	<div class="flipper">
-                    	<div class="Back">
-                            <img id="Tan" src='images/Blossom-The-Powerpuff-Girl.jpg' class='img-circle'>
-                        </div>
-                        <div class="Front">
-                        	<img src="images/malaysian.png" class="img-circle">
-                        </div>
-                     </div>
-                 </div>
-                            <br>
-                                <h2>Malaysia</h2>   
-                            <br>
-                                <p>I'm Jie Xin, a second year undergraduate who enjoys trying out new recipes</p>
-              </div>
-        </div>
 
-     </div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  	
+
+    <!--Image 1-->
+    <div class="item active">
+      <img src="images/efes.JPG" alt="efes" >
+      <div class="carousel-caption">
+        Efes
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/huiwei.JPG" alt="huiwei">
+      <div class="carousel-caption">
+        Hui Wei
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/cubana.JPG" alt="cubana">
+      <div class="carousel-caption">
+        Cubana
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/milestone.JPG" alt="milestone">
+      <div class="carousel-caption">
+        The Milestone
+      </div>
+    </div>    
+    </div>
+
+  
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
+	<div class="tagline">See the world
+        <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    </div>
+    </div>
+
+
 <!--Sheffield Restaurants-->
-<div class="sheffield">
+<div class="sheffield1">
 <h1> Best Restaurants in Sheffield</h1>
 <iframe src="https://www.google.com/maps/d/embed?mid=1cI4imxrsE4LW8gpkdIL14YMjWZo&hl=en" width="640" height="480"></iframe>
 </div>
 
-<!--Contact-->
-
-<div class="contactform">
-	<div class="container-fluid">
-	    <a href="#contact"><h1 id="contact"> Contact Us </h1></a>
-			<div class="container">
-   	<form>
-      <div class="form-group">
-            <label for="email1">Email address</label>
-            <input type="email" class="form-control" id="email1" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label for="password1">Password</label>
-            <input type="password" class="form-control" id="password1" placeholder="Password">
-          </div>
-          <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
-          </div>    
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-       </div>
-	</div>
-</div>
-  
   
 <!--footer bar at bottom-->
 		<div class="footer">

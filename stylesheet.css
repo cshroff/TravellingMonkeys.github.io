@@ -225,7 +225,37 @@ p.solid {
 	font-family: 'Rock Salt', Cursive;
 	padding-bottom: 20px;
 }
-	
+/*Sheffield Page*/
+.sheffield1{
+	text-align:center;
+	padding: 20px;
+}
+.i4ewOd-pzNkMb-haAclf {
+    background-color: white;
+}
+.sheffield1 h1{
+	margin-top: 0;
+	color: black;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
+}
+/*Changing Pictures*/
+.carousel{
+	margin: 0px;
+	padding-top: 98px;
+	width: auto;
+	position:relative;
+	height: auto;
+	text-align:center;
+}
+.carousel-indicators{
+	position:relative;
+	margin: 0px;
+	text-align:center;
+}
+.item{
+		height: 500px;
+	}
 /*Contact Page*/
 .contactcontact{
 	text-align:center;
