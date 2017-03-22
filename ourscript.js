@@ -12,3 +12,7 @@ $( "#claire" ).hover(function() {
 });
 
 
+$(document).ready(function () {
+$('.navbar-toggle').dropdown();
+});
+
