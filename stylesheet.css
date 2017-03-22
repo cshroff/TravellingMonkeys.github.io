@@ -97,9 +97,7 @@ i{
 }
 >>>>>>> origin/master
 
-p{
-	color:black;
-} 
+
 .row{
 	margin: 0;
 }
@@ -107,6 +105,14 @@ p{
 	margin: 0;
 	padding: 0;
 	}	
+.description {
+	padding-top: 50px;
+}
+p {
+	text-indent: 50px;
+	font-family: 'Amatic SC', cursive;
+}
+
 .img-circle{
 	width: 200px;
 	height: 200px;
