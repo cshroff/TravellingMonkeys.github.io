@@ -264,6 +264,23 @@ p.solid {
 	margin: 0px;
 	text-align:center;
 }
+.carousel-caption{
+	border: solid;
+	border-color: white;
+	border-width: 3px;
+	color:white;
+	font-size:larger;
+	font-weight: bold;
+	background-color: rgba(0,0,0, .5);
+	text-align:center;
+	text-indent:0;
+	font-family: 'Rock Salt', Cursive;
+}
+.carousel p{
+	text-indent: 0px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding-top: 10px;
+}
 .item{
 		height: 500px;
 	}
