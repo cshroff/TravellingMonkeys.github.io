@@ -178,19 +178,6 @@ p.solid {
     padding: : 5px;
 }
 
-.contentwrapper {
-width: 100%;
-}
-
-.MHeader {
- width: 600px;
- border-style: inset;
- border-color: #COCOCO;
- background-color: #707070;
- padding: 5px;
-margin: 5px auto;
- text-align:center;
-}
 
 /*Contact Form*/
 .contactform{
