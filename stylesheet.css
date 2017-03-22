@@ -8,6 +8,7 @@
 		position:fixed;
 		top: 0;
 		width: 100%;
+		z-index: 3;
 	}
 .top .container{
 	margin: 0px;
@@ -91,14 +92,6 @@ i{
 .countries .container-fluid{
 	margin-top: 20px;
 }
-=======
-	margin: auto;	
-}
->>>>>>> origin/master
-
-p{
-	color:black;
-} 
 .row{
 	margin: 0;
 }
@@ -121,6 +114,7 @@ p {
 	margin-top: 30px;
 	padding-top: 50px;
 	margin-bottom: 50px;
+	position: relative;
 }
 .countries a{
 	color: black;
@@ -279,6 +273,15 @@ p.solid {
 	text-indent:0;
 	font-family: 'Rock Salt', Cursive;
 }
+.carousel-caption a{
+	margin-top: 0;
+	color: white;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: none;
+	}
 .carousel p{
 	text-indent: 0px;
 	font-family:"Arial Black", Gadget, sans-serif;
