@@ -156,12 +156,6 @@ p {
 }
 /*Malaysia page*/
 
-p.solid {
-    border-style: solid;
-    border-width: 5px;
-    border-color: grey;
-}
-
 .content {
 	width: 500px;
     margin: 5px auto;
