@@ -229,6 +229,7 @@ p.solid {
 .sheffield1{
 	text-align:center;
 	padding: 20px;
+	background-color: rgba(0,0,0,.9)
 }
 .i4ewOd-pzNkMb-haAclf {
     background-color: white;
@@ -239,10 +240,20 @@ p.solid {
 	font-family: 'Rock Salt', Cursive;
 	padding-bottom: 20px;
 }
+.sheffield2{
+	text-align:center;
+	padding: 20px;
+}
+.sheffield2 h1{
+	margin-top: 0;
+	color: black;
+	font-family: 'Rock Salt', Cursive;
+	padding-bottom: 20px;
+}
 /*Changing Pictures*/
 .carousel{
 	margin: 0px;
-	padding-top: 98px;
+	padding-top: 0px;
 	width: auto;
 	position:relative;
 	height: auto;
